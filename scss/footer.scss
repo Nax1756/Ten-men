@@ -1,0 +1,52 @@
+@import 'nullstyle';
+@import 'breakpoint';
+@import 'fonts';
+
+footer{
+   height: 324px;
+   .footer__container{
+      border-top: 1px solid #fff;
+   }
+   .footer__content{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 60px 0 0 0;
+      .footer__list{
+         text-transform: uppercase;
+         .list{
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+         }
+         .footer__link{
+            width: calc(100% + 30px);
+            line-height: 150%;
+         }
+      }
+      .footer__contacts{
+         margin: 40px 0 0 0;
+         display: flex;
+         align-items: center;
+         @include bp(425px){
+            flex-direction: column;
+         }
+         .contacts__number{
+            line-height: 200%;
+            margin: 0 40px 0 0;
+            @include bp(425px){
+               margin: 0;
+            }
+         }
+         .icons__insta{
+            margin: 0 17.6px 0 0;
+         }
+         .icons__beer{
+            margin: 0 22.4px 0 0;
+         }
+      }
+      .footer__bank{
+         margin: 60px 0 0 0;
+      }
+   }
+}

@@ -1,0 +1,134 @@
+@import url(https://fonts.googleapis.com/css?family=Bebas+Neue:300,regular,italic,700);
+@import url(https://fonts.googleapis.com/css?family=Manrope:regular);
+body {
+  margin: 0;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+p {
+  color: white;
+  margin: 0;
+}
+
+* {
+  padding: 0;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+}
+
+li {
+  display: inline-block;
+}
+
+h1 {
+  margin: 0;
+}
+
+button {
+  font-size: 20px;
+  border: none;
+  background: none;
+  width: auto;
+  height: auto;
+  color: white;
+  cursor: pointer;
+  text-align: center;
+}
+
+@font-face {
+  font-family: "Gilroy";
+  src: url(/fonts/Gilroy/Gilroy-SemiBold.ttf);
+  font-weight: 600;
+}
+@font-face {
+  font-family: "Gilroy";
+  src: url(/fonts/Gilroy/Gilroy-Regular.ttf);
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Gilroy";
+  src: url(/fonts/Gilroy/Gilroy-RegularItalic.ttf);
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Gilroy";
+  src: url(/fonts/Gilroy/Gilroy-Bold.ttf);
+  font-weight: 700;
+}
+@font-face {
+  font-family: "Gilroy";
+  src: url(/fonts/Gilroy/Gilroy-Medium.ttf);
+  font-weight: 500;
+}
+@font-face {
+  font-family: "Gilroy";
+  src: url(/fonts/Gilroy/Gilroy-UltraLightItalic.ttf);
+  font-weight: 265;
+}
+.promo {
+  height: 1080px;
+  width: 100%;
+}
+@media (max-width: 768px) {
+  .promo {
+    height: 900px;
+  }
+}
+@media (max-width: 550px) {
+  .promo {
+    height: 760px;
+  }
+}
+@media (max-width: 375px) {
+  .promo {
+    height: 680px;
+  }
+}
+.promo .promo__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.promo .main-beer {
+  margin: 140px 0 80px 0;
+}
+@media (max-width: 768px) {
+  .promo .main-beer {
+    width: 420px;
+    height: 420px;
+  }
+}
+@media (max-width: 550px) {
+  .promo .main-beer {
+    width: 320px;
+    height: 320px;
+  }
+}
+@media (max-width: 375px) {
+  .promo .main-beer {
+    width: 280px;
+    height: 280px;
+  }
+}
+.promo .promo__button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  font-size: 24px;
+  line-height: 120%;
+  font-weight: 400;
+  width: 240px;
+  height: 80px;
+  border: 1px solid #fff;
+}
+.promo .promo__button:hover {
+  text-decoration: underline 1px;
+}

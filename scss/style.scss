@@ -1,0 +1,108 @@
+@import 'nullstyle';
+@import 'breakpoint';
+@import 'fonts';
+@import 'header';
+@import 'footer';
+@import 'promo';
+@import 'shop';
+
+
+
+/* -------------------------------------------------------------------------- */
+/*                                    another                                 */
+/* -------------------------------------------------------------------------- */
+
+body{
+   font-family: 'Gilroy';
+   font-weight: 600;
+   font-size: 20px;
+   background: #000;
+   color: #fff;
+}
+
+._container{
+   max-width: 1670px;
+   margin: 0 auto;
+   padding: 0 15px;
+}
+
+main{
+   margin: 0 0 60px 0;
+}
+/* -------------------------------------------------------------------------- */
+/*                                   style                                    */
+/* -------------------------------------------------------------------------- */
+.main{
+   margin: 0;
+}
+.product{
+   height: 100%;
+}
+.product__content{
+   display: flex;
+   .product__image{
+      width: 50vw;
+      height: 100%;
+      padding: 100px 0 144px 0;
+      border-right: 1px solid #fff;
+      img{
+         width: 794px;
+         height: 794px;
+      }
+   }
+   .product__block-wrapper{
+      display: flex;
+      width: 50vw;
+      justify-content: center;
+      .product__block{
+         margin: 147px 0 0 0;
+         width: 547px;
+         display: flex;
+         flex-direction: column;
+         .product__info{
+            width: 561px;
+         }
+         .product__title{
+            font-weight: 700;
+            font-size: 32px;
+            line-height: 125%;
+         }
+         .product__data{
+            margin: 40px 0 0 0;
+            font-weight: 700;
+            font-size: 24px;
+            color: #C1E1FF;
+         }
+         .product__interest{
+            display: flex;
+            margin: 10px 0 0 0;
+         }
+         .product__text{
+            margin: 40px 0 0 0;
+            font-weight: 400;
+            font-size: 20px;
+            display: flex;
+            flex-direction: column;
+            gap: 14px;
+            line-height: 150%;
+         }
+         .product__bottom-info{
+            margin: 40px 0 0 0;
+            display: flex;
+            align-items: center;
+            gap: 30px;
+            .product__capacity{
+               font-weight: 500;
+               font-size: 24px;
+            }
+            .product__price{
+               font-size: 40px;
+               line-height: 47px;
+               font-weight: regular;
+            }
+         }
+      }
+   }
+   
+}
+

@@ -1,0 +1,32 @@
+@import url(https://fonts.googleapis.com/css?family=Bebas+Neue:300,regular,italic,700);
+@import url(https://fonts.googleapis.com/css?family=Manrope:regular);
+@font-face {
+  font-family: "Gilroy";
+  src: url(/fonts/Gilroy/Gilroy-SemiBold.ttf);
+  font-weight: 600;
+}
+@font-face {
+  font-family: "Gilroy";
+  src: url(/fonts/Gilroy/Gilroy-Regular.ttf);
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Gilroy";
+  src: url(/fonts/Gilroy/Gilroy-RegularItalic.ttf);
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Gilroy";
+  src: url(/fonts/Gilroy/Gilroy-Bold.ttf);
+  font-weight: 700;
+}
+@font-face {
+  font-family: "Gilroy";
+  src: url(/fonts/Gilroy/Gilroy-Medium.ttf);
+  font-weight: 500;
+}
+@font-face {
+  font-family: "Gilroy";
+  src: url(/fonts/Gilroy/Gilroy-UltraLightItalic.ttf);
+  font-weight: 265;
+}

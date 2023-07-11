@@ -1,0 +1,126 @@
+@import url(https://fonts.googleapis.com/css?family=Bebas+Neue:300,regular,italic,700);
+@import url(https://fonts.googleapis.com/css?family=Manrope:regular);
+body {
+  margin: 0;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+p {
+  color: white;
+  margin: 0;
+}
+
+* {
+  padding: 0;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+}
+
+li {
+  display: inline-block;
+}
+
+h1 {
+  margin: 0;
+}
+
+button {
+  font-size: 20px;
+  border: none;
+  background: none;
+  width: auto;
+  height: auto;
+  color: white;
+  cursor: pointer;
+  text-align: center;
+}
+
+@font-face {
+  font-family: "Gilroy";
+  src: url(/fonts/Gilroy/Gilroy-SemiBold.ttf);
+  font-weight: 600;
+}
+@font-face {
+  font-family: "Gilroy";
+  src: url(/fonts/Gilroy/Gilroy-Regular.ttf);
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Gilroy";
+  src: url(/fonts/Gilroy/Gilroy-RegularItalic.ttf);
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Gilroy";
+  src: url(/fonts/Gilroy/Gilroy-Bold.ttf);
+  font-weight: 700;
+}
+@font-face {
+  font-family: "Gilroy";
+  src: url(/fonts/Gilroy/Gilroy-Medium.ttf);
+  font-weight: 500;
+}
+@font-face {
+  font-family: "Gilroy";
+  src: url(/fonts/Gilroy/Gilroy-UltraLightItalic.ttf);
+  font-weight: 265;
+}
+footer {
+  height: 324px;
+}
+footer .footer__container {
+  border-top: 1px solid #fff;
+}
+footer .footer__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 60px 0 0 0;
+}
+footer .footer__content .footer__list {
+  text-transform: uppercase;
+}
+footer .footer__content .footer__list .list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+footer .footer__content .footer__list .footer__link {
+  width: calc(100% + 30px);
+  line-height: 150%;
+}
+footer .footer__content .footer__contacts {
+  margin: 40px 0 0 0;
+  display: flex;
+  align-items: center;
+}
+@media (max-width: 425px) {
+  footer .footer__content .footer__contacts {
+    flex-direction: column;
+  }
+}
+footer .footer__content .footer__contacts .contacts__number {
+  line-height: 200%;
+  margin: 0 40px 0 0;
+}
+@media (max-width: 425px) {
+  footer .footer__content .footer__contacts .contacts__number {
+    margin: 0;
+  }
+}
+footer .footer__content .footer__contacts .icons__insta {
+  margin: 0 17.6px 0 0;
+}
+footer .footer__content .footer__contacts .icons__beer {
+  margin: 0 22.4px 0 0;
+}
+footer .footer__content .footer__bank {
+  margin: 60px 0 0 0;
+}

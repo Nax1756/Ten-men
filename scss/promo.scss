@@ -1,0 +1,53 @@
+@import 'nullstyle';
+@import 'breakpoint';
+@import 'fonts';
+
+
+.promo{
+   height: 1080px;
+   width: 100%;
+   @include bp(768px){
+      height: 900px;
+   }
+   @include bp(550px){
+      height: 760px;
+   }
+   @include bp(375px){
+      height: 680px;
+   }
+   .promo__content{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+   }
+   .main-beer{
+      margin: 140px 0 80px 0;
+      @include bp(768px){
+         width: 420px;
+         height: 420px;
+      }
+      @include bp(550px){
+         width: 320px;
+         height: 320px;
+      }
+      @include bp(375px){
+         width: 280px;
+         height: 280px;
+      }
+   }
+   .promo__button{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-transform: uppercase;
+      font-size: 24px;
+      line-height: 120%;
+      font-weight: 400;
+      width: 240px;
+      height: 80px;
+      border: 1px solid #fff;
+      &:hover{
+         text-decoration: underline 1px;
+      }
+   }
+}

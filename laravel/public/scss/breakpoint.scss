@@ -1,0 +1,41 @@
+@mixin bp($max-width) {
+   @media(max-width: $max-width) {
+      @content;
+   }
+}
+
+@mixin mf($min-width) {
+   @media(min-width: $min-width) {
+      @content;
+   }
+}
+
+@mixin mm($min-width, $max-width) {
+   @media(min-width: $min-width) and (max-width: $max-width) {
+      @content;
+   }
+}
+
+@mixin adaptiveDistance($start, $end, $breakpoint: 768px) {
+   margin: $start;
+
+   @media (max-width: $breakpoint) {
+      margin: $end;
+   }
+}
+
+@mixin adaptiveWidth($start, $end, $breakpoint: 768px) {
+   width: $start;
+
+   @media (max-width: $breakpoint) {
+      width: $end;
+   }
+}
+
+@mixin adaptiveHeight($start, $end, $breakpoint: 768px) {
+   height: $start;
+
+   @media (max-width: $breakpoint) {
+      height: $end;
+   }
+}
